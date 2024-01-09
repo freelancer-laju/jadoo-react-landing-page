@@ -16,7 +16,7 @@ const Header = () => {
 
   return (
     <>
-      <section className=" md:px-10 lg:px-[6rem] shadow-md  w-full fixed top-0 left-0">
+      <header className=" md:px-10 lg:px-[6rem] shadow-md  w-full fixed top-0 left-0">
         <div className="md:flex items-center justify-between bg-white md:bg-transparent py-5 md:px-10 px-7">
           <div>
             <img src={Logo} alt="" />
@@ -60,7 +60,7 @@ const Header = () => {
             </div>
           </ul>
         </div>
-      </section>
+      </header>
 
       {/* hero section */}
       <main className="px-4 md:px-10 lg:px-[9rem] mt-[150px]">
@@ -86,7 +86,7 @@ const Header = () => {
             <h1 className="text-[#181E4B] text-[40px] md:text-[60px] font-bold font-[Volkhov] md:leading-[89px] mt-5">
               Travel, enjoy <br /> and live a new and full life
             </h1>
-            <p className="text-[#181E4B] font-[Poppins] text-[16px] font-semibold mt-4 w-[460px] ">
+            <p className="text-[#181E4B] font-[Poppins] text-[16px] font-semibold mt-4 md:w-[460px] ">
               Built Wicket longer admire do barton vanity itself do in it.
               Preferred to sportsmen it engrossed listening. Park gate sell they
               west hard for the.
